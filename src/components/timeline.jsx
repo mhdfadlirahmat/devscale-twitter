@@ -20,7 +20,7 @@ export const Timeline = ({ item }) => {
             <div className="text-slate-400">@akunaslirafatar</div>
           </div>
           <div className="flex justify-end">
-            <Dropdown />
+            <Dropdown key={item._id} item={item} />
           </div>
         </div>
         <div>

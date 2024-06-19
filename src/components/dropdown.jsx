@@ -3,7 +3,7 @@ import { useRouter } from "next/navigation";
 import * as SolarIconSet from "solar-icon-set";
 
 export const Dropdown = ({ item }) => {
-  const router = useRouter;
+  const router = useRouter();
   async function handleDeleteData() {
     await fetch("https://v1.appbackend.io/v1/rows/ZWBsUoABjPH0", {
       method: "DELETE",
