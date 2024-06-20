@@ -14,7 +14,7 @@ export const Timeline = ({ item }) => {
         className="w-10 h-10 rounded-full"
       />
       <div className="space-y-1">
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-2 bg-red-500">
           <div className="flex gap-1">
             <div className="font-medium">Rafatar</div>
             <div className="text-slate-400">@akunaslirafatar</div>
@@ -24,7 +24,7 @@ export const Timeline = ({ item }) => {
           </div>
         </div>
         <div>
-          <p className="">{item.tweet}</p>
+          <div>{item.tweet}</div>
         </div>
       </div>
     </div>
