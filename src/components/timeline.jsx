@@ -13,7 +13,7 @@ export const Timeline = ({ item }) => {
         alt="Rounded avatar"
         className="w-10 h-10 rounded-full"
       />
-      <div className="space-y-1">
+      <div className="w-full space-y-1">
         <div className="grid grid-cols-2">
           <div className="flex gap-1">
             <div className="font-medium">Rafatar</div>
