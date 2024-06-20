@@ -6,7 +6,7 @@ import { ListIcon } from "./listicon";
 
 export const DashboardTemplate = ({ children }) => {
   return (
-    <div className="h-full bg-fixed bg-twitter">
+    <div className="h-screen bg-fixed bg-twitter">
       <div className=" font-Poppins font-light py-2 xl:px-64">
         <div className="flex xpy-4">
           <aside className="hidden xl:flex text-white ">
